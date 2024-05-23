@@ -1,23 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIT - Aula Prática 1</title>
+    <title>Marcelo Leite Junior - Portfólio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Lista de Estudantes</h1>
+        <div class="profile">
+            <img src="https://media.licdn.com/dms/image/D4D03AQHrwxVpjvpuhQ/profile-displayphoto-shrink_200_200/0/1704807946505?e=1721865600&v=beta&t=s4dsOOaitawkE5jofVjH1wJd2Da8LyvDmHRiIP3NNJ8" alt="Foto de Marcelo Leite Junior">
+            <h1>Marcelo Leite Junior</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#interesses">Atividades e Interesses</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <ul id="lista-estudantes">
-            <li><a href="estudantes/marcelo_leite_junior/index.html">Marcelo Leite Junior</a></li>
-            <li><a href="estudantes/marcelo_exemplo/">Marcelo Exemplo</a></li>
-            <li><a href="estudantes/rodrigo_sergio/">Rodrigo Sergio</a></li>
-            <!-- Aqui você pode adicionar mais estudantes -->
-            <!-- Exemplo: <li><a href="link_para_branch">Nome do Estudante</a></li> -->
-        </ul>
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <p>Graduado em sistemas de informação, sou desenvolvedor de software proativo com 5 anos de experiência no desenvolvimento de produtos para escritórios de advocacia, empresa de marketing, empresa de combustíveis e atualmente banco. Tenho interesse em ingressar em uma empresa multicultural formada por bons profissionais e bom trabalho em grupo.</p>
+        </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+            <p>BACHAREL EM SISTEMAS DE INFORMAÇÃO | OUTUBRO 2024 | UNICESUMAR – POUSO ALEGRE – MG – BRAZIL</p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <div class="job">
+                <h3>UOL COMPASS - DESENVOLVEDOR RPA UIPATH | SICREDI BANK</h3>
+                <p>JULHO 2024 – PRESENT</p>
+                <ul>
+                    <li>Desenvolvendo uma automação UiPath que lida com múltiplos sistemas de pagamento reduzindo a chance de erros em valores monetários para 0% e permitindo que três funcionários utilizem esse tempo para outras atividades.</li>
+                    <li>Auxiliando o analista de automação na criação de instruções de automação, validação técnica, análise de processos e design de produção seguindo os padrões da documentação UiPath ReFramework e RPA Business Analyst.</li>
+                    <li>Guiei a equipe de operações, sem experiência prévia em desenvolvimento de aplicativos, através do processo de aprovação do robô. Forneceu descrições claras de casos de teste com resultados esperados e projetou fluxos intuitivos usando Miro para garantir uma implementação bem-sucedida.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>IPIRANGA - DESENVOLVEDOR JAVA BACKEND</h3>
+                <p>JULHO 2022 – JUNHO 2024</p>
+                <ul>
+                    <li>Desenvolvi uma aplicação AWS Lambda utilizando Java 11, Maven e Jax-WT, permitindo que milhares de clientes (motoristas de combustível) em todo o país gerenciem seus veículos e destinos através da aplicação mobile.</li>
+                    <li>Colaborei com a equipe de backend, gerenciando versões de aplicações de forma eficiente através de Git e GitLab.</li>
+                    <li>Monitorou a integridade do aplicativo por meio de logs e Datadog.</li>
+                    <li>Executou com sucesso testes unitários utilizando JUnit 4 e Mockito, garantindo robustez e estabilidade da aplicação.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>SOCIALSOUL - DESENVOLVEDOR E ANALISTA FULLSTACK</h3>
+                <p>NOVEMBRO 2021 – JULHO 2022</p>
+                <ul>
+                    <li>Recursos depurados, documentados e corrigidos em microsserviços Java e aplicações web React, garantindo a estabilidade e funcionalidade dos sistemas e contribuindo para a melhoria geral da plataforma de marketing de afiliados utilizada por milhares de consultores.</li>
+                    <li>Orientação a clientes e colaboradores de diversas áreas da empresa.</li>
+                    <li>Resolveu problemas de produtos abertos pelo atendimento ao cliente, relatando possíveis problemas na plataforma de marketing de afiliados que contém milhares de consultores.</li>
+                    <li>No período de seis meses resolvi os problemas acumulados de produtos no Jira que somavam doze vezes o considerado saudável para os objetivos da empresa.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>FINCH SOLUÇÕES - DESENVOLVEDOR JAVA BACKEND</h3>
+                <p>NOVEMBRO 2020 – NOVEMBRO 2021</p>
+                <ul>
+                    <li>Contribuiu para o desenvolvimento de automações RPA e colaborou com uma equipe de cinco desenvolvedores para projetar, implementar e manter diversos robôs e serviços.</li>
+                    <li>Conduziu pesquisas sobre tecnologias emergentes para melhorar a funcionalidade e a eficiência dos robôs.</li>
+                    <li>Trabalhei extensivamente com bancos de dados relacionais e não relacionais (PostgreSQL e MongoDB), gerenciando dados de forma eficaz.</li>
+                    <li>Desempenhou um papel fundamental na criação e manutenção de web scrapers e outros serviços, otimizando seu desempenho e capacidades. Notavelmente, nossos scrapers processaram com sucesso quase um milhão de ações judiciais em vários sites em todo o país, demonstrando sua eficiência e escalabilidade.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>MAGU SOLUÇÕES (FREELANCER) - DESENVOLVEDOR FULLSTACK</h3>
+                <p>JANEIRO 2019 – NOVEMBRO 2020</p>
+                <ul>
+                    <li>Como freelancer, colaborou com um colega de trabalho para focar no desenvolvimento de automações RPA usando Java e Python. Envolvido diretamente com clientes para automatizar a busca e análise de dados de processos judiciais de vários clientes, coletando e analisando com sucesso mais de trezentos mil processos judiciais.</li>
+                    <li>Conduziu análises dos dados, fornecendo insights valiosos aos clientes, incluindo grandes bancos.</li>
+                    <li>Desenvolvi uma aplicação desktop utilizando JAVA FX capaz de ler dados de PDFs e imagens e transmiti-los para o site de um banco. Uma empresa de advocacia alugou o aplicativo por dois anos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>JAVA 8 and 11, UIPATH, Python, C#, C++, HTML, CSS and Javascript, Git, Spring Boot, Maven, JUnit 4 and Mockito, JAX-WS, JAVA FX, ReFramework, Jenkins, MySQL, MongoDB, PostgreSQL, RabbitMQ, Docker, Datadog, Jira e Miro</li>
+            </ul>
+        </section>
+
+        <section id="interesses">
+            <h2>Atividades e Interesses</h2>
+            <ul>
+                <li>Tocar piano e violão, ensino, desenvolvimento de jogos, desafios de programação e natação</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
